@@ -12,6 +12,6 @@ description: Incident Response by day, occasional adjunct by night. GCIH, GCFA, 
 theme: jekyll-theme-slate
 
 # Includes an icon in the footer for each user name entered
-footer-links:
-	github: glennbarrett
-	twitter: theglennbarrett
+#footer-links:
+#	github: glennbarrett
+#	twitter: theglennbarrett
