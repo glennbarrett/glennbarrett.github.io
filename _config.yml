@@ -1,1 +1,12 @@
+#
+# This file contains configuration flags for the site
+#
+
+# Name of the site (displayed in the header)
+name: Glenn's Blog
+
+# Short bio or description (displayed in the header)
+description: Incident Response by day, occasional adjunct by night. GCIH, GCFA, GREM, CEH. () { :;} ; Yay \#DerbyCon
+
+# Theme used for site
 theme: jekyll-theme-slate
