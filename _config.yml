@@ -3,7 +3,8 @@ permalink:      pretty
 
 # Setup
 title:          Glenn's Blog
-paginate:       5"
+paginate:       5
+baseurl:	"/"
 url:            "https://glennbarrett.github.io"
 
 # Assets
