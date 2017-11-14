@@ -1,6 +1,5 @@
 # Permalinks
-#permalink:      pretty
-permalink:	/:year-:month-:day/:title
+permalink:      pretty
 
 # Setup
 title:          Glenn's Blog
