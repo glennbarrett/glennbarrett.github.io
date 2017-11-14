@@ -13,4 +13,4 @@ From the definition on the [Arduino Site](https://www.arduino.cc):
 "Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software. It's intended for artists, designers, hobbyists, and anyone interested in creating interactive objects or environments." 
 
 I got my Arduino from [Adafruit Industries](https://www.adafruit.com). They have a pretty nice starter package you can get from this link: 
-[http://www.adafruit.com/blog/2009/08/03/arduino-budget-pack-under-50-arduino-pack/](http://www.adafruit.com/blog/2009/08/03/arduino-budget-pack-under-50-arduino-pack/)
+[Arduino Budget Pack](http://www.adafruit.com/blog/2009/08/03/arduino-budget-pack-under-50-arduino-pack/)
