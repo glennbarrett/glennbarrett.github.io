@@ -5,4 +5,4 @@ author: "Glenn"
 permalink: /about/
 ---
 
-This is my about page placeholder for My Blog[http://www.glennbarrett.com]
+This is my about page placeholder for [My Blog](http://www.glennbarrett.com)
