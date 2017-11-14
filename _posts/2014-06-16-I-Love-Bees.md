@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My "I Love Bees" write-up from Circle City Con CTF, part of Tri-City CTF"
+title:  "My \"I Love Bees\" write-up from Circle City Con CTF, part of Tri-City CTF"
 author: "Glenn"
 ---
 
