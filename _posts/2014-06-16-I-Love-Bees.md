@@ -10,29 +10,31 @@ author: "Glenn"
 
 <center><iframe frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/154632568&color=ff5500&auto_play=false&hide_related=false&show_artwork=true&show_comments=true&show_user=true&show_reposts=false" width="100%"></iframe></center>
 
+
 The right channel (bottom) is basically just a snippet of the track “Flight of the Bumblebee”, however, if you pan to the left track, you can hear some familiar beeping about 40 seconds in. It’s morse code! At first, I attempted to slow the track down enough in Audacity that I could write down the morse as it came across, but then I realized I had a visual representation of the data, so I slowed it waaay down (-80%) and ended up with this: 
 
 ![Morse](/images/ilovebeesmorse.gif)
 
 <center><iframe frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/154633612&color=ff5500&auto_play=false&hide_related=false&show_artwork=true&show_comments=true&show_user=true&show_reposts=false" width="100%"></iframe></center>
 
+
 Note that the actual code was a bit wider than this, but I couldn’t fit it all in one screenshot. The point here is obvious though, because the measurements there are essentially written out morse code. In the end, the entire morse is this: 
 
 ```
-**..-. -.-. ---.. ----. -... ..-. -.-. ..--- -... ----- ..... ..-. .---- -.-. ..--- . -.... ....- -... ---.. --... ---.. ....- ...-- ----. ..--- --... ---.. ...-- .- -.-. ----.**
+..-. -.-. ---.. ----. -... ..-. -.-. ..--- -... ----- ..... ..-. .---- -.-. ..--- . -.... ....- -... ---.. --... ---.. ....- ...-- ----. ..--- --... ---.. ...-- .- -.-. ----.
 ```
 
 That morse translates to what I hoped would be the flag, but ended up just being a second part of the puzzle: 
 
 ```
-**FC89BFC2B05F1C2E64B8784392783AC9**
+FC89BFC2B05F1C2E64B8784392783AC9
 ```
 
 Now I have a 32 character hexadecimal string, which can be any number of things. I tried running it through some simple online password crackers but none of them liked the format, so then I went back to take a look at the image that was provided with the challenge: 
 
 ![Stickers](/images/ilovebees_resized.jpg)
 
-Since the challenge was cryptology, the sticky note with "ECB??" stood out to me. ECB in cryptology is Electronic Codebook, which is a mode of operation for block ciphers. From there, I noticed the 2^7 note, so I thought maybe this was using some sort of 128-bit ECB mode encryption. With this information/hunch, I went to an online decrypter [Tools4Noobs Decrypter](http://www.tools4noobs.com/online_tools/decrypt/) and tried some different keys based on the other sticky notes to decrypt the hexadecimal code. The first key I tried was Archer, due to the sticky note with Mother, Pam, and Cyril since this seemed like a reference to the TV show. That was unsuccessful. I couldn’t really deduce anything from the "I <3 Denver!” or “I’m a Rocket Man” notes, so the only thing left was REDRYDER, which I then tried as the key: 
+Since the challenge was cryptology, the sticky note with **ECB??** stood out to me. ECB in cryptology is Electronic Codebook, which is a mode of operation for block ciphers. From there, I noticed the 2^7 note, so I thought maybe this was using some sort of 128-bit ECB mode encryption. With this information/hunch, I went to an online decrypter [Tools4Noobs Decrypter](http://www.tools4noobs.com/online_tools/decrypt/) and tried some different keys based on the other sticky notes to decrypt the hexadecimal code. The first key I tried was Archer, due to the sticky note with Mother, Pam, and Cyril since this seemed like a reference to the TV show. That was unsuccessful. I couldn’t really deduce anything from the "I <3 Denver!” or “I’m a Rocket Man” notes, so the only thing left was REDRYDER, which I then tried as the key: 
 
 ![Solved](/images/solved.gif)
 
