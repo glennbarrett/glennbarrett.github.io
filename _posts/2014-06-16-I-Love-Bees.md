@@ -4,7 +4,7 @@ title:  "My \"I Love Bees\" write-up from Circle City Con CTF, part of Tri-City 
 author: "Glenn"
 ---
 
-“I love bees” was a cryptology challenge. The files provided were an MP3 file and a JPG file. The JPG was a picture with some stickers that were supposed to be from the cubicle of an employee of the company that had created the audio file, but it also provided some critical hints for the second phase of the challenge. The first thing I did was load the audio file into Audacity, which showed me this: 
+“I love bees” was a cryptology challenge. The files provided were an MP3 file and a JPG file. The JPG was a picture with some stickers that were supposed to be from the cubicle of an employee of the company that had created the audio file, but it also provided some critical hints for the second phase of the challenge. The first thing I did was load the audio file into Audacity, which showed me this info: 
 
 ![Original](/images/ilovebeesoriginal.gif)
 
