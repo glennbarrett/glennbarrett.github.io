@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: glennbarrett.com
+Token: ccc072366a19b6f5cfe8d7392fc4af2a57a67b4f140c4883555019da05cf1d39
